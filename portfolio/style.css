@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.bckimg{
+    width: 100%;
+    height:100vh;
+    background-color:rgb(43, 33, 33);
+    background-image: url("tan.jpg");
+    background-repeat: no-repeat;
+   background-size:375px 380px;
+    background-position:85% 60%;
+
+}
+
+.bckimg2{
+    width: 100%;
+    height:100vh;
+    background-image: url("EFFECTS\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 600px 370px;
+    background-position:100% 100%;
+  }
+
+.bckimg3{
+    width: 100%;
+    height:100vh;
+    background-image: url("tour.jpeg");
+    background-repeat: no-repeat;
+    background-size:450px 310px;
+    background-position:95% 15%;
+
+
+}
+
+nav{
+    display: flexbox;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: space-between;
+    background-color:grey;
+    padding: 36px 100px;
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #30729e;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #6bdb8d;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+
+.content{
+    padding-left: 150px;
+    padding-left: 10px;
+    /* background-color:hotpink; */
+    /* background-color: black; */
+
+}
+.content .title {
+    color: #1f1f25;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 10px;
+    /* background-color: black; */
+    background: linear-gradient(150deg, #1795fc 20.69%, #921af3 50.19%,#1f31d6 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .content .tab{ */
+
+
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+    color: honeydew;
+}
+.content h1 span{
+    color: #4bd388;
+}
+.content p{
+    width: 55%;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.content .about{
+  width: 55%;
+  color: #110606;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.content .hobbi{
+  width: 55%;
+  color: #110606;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.content ul{
+
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+* {
+  font-family:'Poppins', sans-serif;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 35px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 10px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.content-table tbody tr.graduation {
+  font-weight: bold;
+  color: #000000;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #000000;
+}
+.content-table tbody tr.ssc{
+  font-weight: bold;
+  color: #000000;
+}
+.content-contact{
+  max-width:500px ;
+  background: #f1f1f1;
+  margin: 5% 30%;
+  
+  top: 50%;
+  left:50% ;
+
+  padding:30px 40px ;
+  box-sizing:border-box ;
+  border-radius: 8px;
+  text-align:center ;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: 'Poppins',sans-serif;
+
+}
+
+.txtb{
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+
+}
+
+.txt label{
+  display:block;
+  text-align: left;
+  color:#333 ;
+  text-transform: uppercase;
+  font-size: 16 ;
+
+}
+.txtb input , .textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+
+}
+  .btn{
+    display: block;
+    background:#6bdb8d;
+    padding:14px 0 ;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+     margin-top: 8px;
+     width: 100%
+
+  }
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.fa {
+   padding: 15px;
+
+   font-size: 50px;
+   text-align: center;
+   text-decoration: none;
+    border-radius: 40%;
+
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right: 35px;
+
+}
+
+
+
+
+.fa-whatsapp{
+  background: #25d366;
+  color: white;
+}
+
+.bottom{
+  margin-top:5px;
+}
